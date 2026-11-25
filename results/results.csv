@@ -1,0 +1,5 @@
+Model,BLEU,chrF++,TER,Params (M),Decode time (s)
+GRU + Attention (scratch),7.38,23.24,99.06,17.9,3.3
+Transformer (scratch),8.52,27.76,93.85,9.6,10.2
+NLLB-200 600M (zero-shot),8.82,32.94,87.61,615,181.4
+NLLB-200 600M (fine-tuned),15.08,39.67,80.2,615,174.9
